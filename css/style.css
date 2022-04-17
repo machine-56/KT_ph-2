@@ -1,0 +1,178 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* index */
+/* navbar-index */
+.navv{
+    background-color: #92a0b9;
+}
+
+/* card-index */
+ /* contents that comes over image */
+ .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0,0.6);
+    color: #ffffff;
+    font-family: Quicksand;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.29s;
+}
+
+/* title part */
+.hed{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* description part */
+.des{
+    font-size: 1em;
+    margin-top: 0.25em;
+    margin-left: 6px;
+    margin-right: 6px;
+    text-align: justify;
+}
+
+/* effect-imp-part */
+.overlay:hover{
+   opacity: 1;
+}
+
+.overlay > *{
+   transform: translateY(25px);
+   transition: transform 0.29s;
+}
+
+.overlay:hover > *{
+   transform: translateY(0);
+}
+
+/* add for blur effect */
+.overlay-blur{
+   backdrop-filter: blur(5px);
+   /* add this class for blur effect */
+}
+
+/* add for colour in bg */
+.overlay-clr{
+   background: hsl(168, 100%, 29%,0.6);
+}
+
+/*  footer_index */
+.footer{
+    background-color: #eeeeee;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+
+.pt-1{
+    margin-left: 3em;
+    align-content: center;
+}
+
+
+/* where to go */
+/* district */
+.district-card img{
+    height: 201px;
+}
+
+
+
+
+/* login page */
+/* login page background */
+.login-bg{
+    margin-top: 11em;
+    background-color: #fff8ef;
+    padding: 1em;
+    border: 0.6px solid #e00;
+}
+
+.login-bg a:hover{
+    color:#ffa400;
+    transition: 0.1s ease-in;
+}
+/* nav bar */
+.nav-log{
+    color: #f0f0f0;
+}
+
+/* sign in page */
+.signin_main{
+    color: aliceblue;
+    margin: 5em;
+    margin-top: 9em;
+}
+.sigin{
+    background-color: #566e66;
+}
+
+/* dt pages */
+/* header colour */
+header{
+    background-color: #eeeeee;
+    height: 3.8em;
+    border: 2px solid #eeeeee;
+}
+
+/* image name */
+#page-image-title{
+    font-family: Quicksand;
+    color: #000;
+}
+
+ /* title */
+ .page-title{
+    font-family: Quicksand;
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+/* footer */
+.page-footer{
+    background-color: #adadad;
+    margin-bottom: 0;
+    margin-top: 5em;
+    border: 2px solid #adadad;
+}
+
+
+
+/* navbar colour 2 */
+.navv-gr{
+    background-color: #adadad;
+}
+
+.page-des{
+    margin: 2em;
+    text-align: justify;
+    font-family: Quicksand;
+}
+
+.dt-image{
+    height: 135px;
+    width: 210px;
+    margin: 3em;
+}
+
+/* for alignment__container */
+.container{
+    margin-left: 9em;
+    /* margin-top: 5em; */
+}
+
+
+
+

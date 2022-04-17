@@ -1,0 +1,30 @@
+/* The message box is shown when the user clicks on the password field */
+#message {
+    display:none;
+    font-family: arial;
+    color: #f1f1f1;
+    position: relative;
+    margin-top: 10px;
+  }
+.cont{
+  font-family: Quicksand;
+}
+  
+  /* Add a green text color and a checkmark when the requirements are right */
+  .valid {
+    color: green;
+  }
+  
+  
+  /* Add a red text color and an "x" when the requirements are wrong */
+  .invalid {
+    color: red;
+  }
+
+  .border{
+    border: none;
+  }
+
+  .errborder{
+    border: 2px solid red;
+  }
