@@ -82,6 +82,8 @@ resub.onkeyup = function(){
       err.style.color = 'red';
     }
     else{
+      resub.classList.remove("errborder");
+      resub.classList.add("border");
       err.innerHTML = "";
     }
 }

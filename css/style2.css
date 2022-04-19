@@ -10,21 +10,21 @@
   font-family: Quicksand;
 }
   
-  /* Add a green text color and a checkmark when the requirements are right */
-  .valid {
-    color: green;
-  }
-  
-  
-  /* Add a red text color and an "x" when the requirements are wrong */
-  .invalid {
-    color: red;
-  }
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
 
-  .border{
-    border: none;
-  }
 
-  .errborder{
-    border: 2px solid red;
-  }
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.border{
+  border: none;
+}
+
+.errborder{
+  border: 2px solid red;
+}
