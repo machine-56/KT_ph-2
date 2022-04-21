@@ -230,7 +230,8 @@ function ph(){
     var regmob1 = /^\d{3}\ \d{3}\ \d{4}$/;
     var regmob2 = /^\d{3}\.\d{3}\.\d{4}$/;
     var regmob3 = /^\d{3}\-\d{3}\-\d{4}$/;
-    if(regmob1.test(mob.value) || regmob2.test(mob.value)||regmob3.test(mob.value)){
+    var regmob4 = /^\d{10}$/;
+    if(regmob1.test(mob.value) || regmob2.test(mob.value)||regmob3.test(mob.value)||regmob4.test(mob.value)){
       return true;
     }
     else{
