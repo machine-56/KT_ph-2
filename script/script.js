@@ -231,7 +231,6 @@ function ph(){
     var regmob2 = /^\d{3}\.\d{3}\.\d{4}$/;
     var regmob3 = /^\d{3}\-\d{3}\-\d{4}$/;
     if(regmob1.test(mob.value) || regmob2.test(mob.value)||regmob3.test(mob.value)){
-      console.log('success phone'); //remove later
       return true;
     }
     else{
@@ -243,7 +242,6 @@ function ph(){
 //test email (mandatory)
 function em(){
     if(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email.value)){
-      console.log('success email');  //remove later
       return true;
     }
     else{
@@ -255,12 +253,11 @@ function em(){
 //compare both field of password
 function pd(){
     if(myInput.value != resub.value){
-      console.log('fail password');  //remove later
+      resub.classList.remove("border");
+      resub.classList.add("errborder");
       return false;
     }
     else{
-        resub.classList.remove("border");
-        resub.classList.add("errborder");
       return true;
     }
 }
@@ -276,4 +273,13 @@ function main(){
       return false;
     }
 }
-  
+
+//login page
+function login(){
+  if(em()){
+    return true;
+  }
+  else{
+    return false;
+  }
+}
