@@ -64,9 +64,13 @@
                  <label for="inputAddress2" class="form-label">Address 2</label>
                  <input type="text" class="form-control" id="inputAddress2" placeholder="Address line 2">
              </div>
-             <div class="col-md-5">
-                <label for="inputState" class="form-label">State</label>
-                <select id="inputState" class="form-select">
+             <div class="col-md-6">
+                <label for="inputCity" class="form-label">State</label>
+                <input type="text" class="form-control" id="inputState" placeholder="state">
+            </div>
+             <div class="col-md-6">
+                <label for="inputState" class="form-label">District</label>
+                <select id="inputDT" class="form-select">
                     <option selected>---select---</option>
                     <option>Alappuzha</option>
                     <option>Ernakulam</option>
@@ -88,13 +92,13 @@
                  <label for="inputCity" class="form-label">City</label>
                  <input type="text" class="form-control" id="inputCity" placeholder="City">
              </div>
-             <div class="col-md-2">
-                 <label for="inputZip" class="form-label">Zip</label>
+             <div class="col-md-3">
+                 <label for="inputZip" class="form-label">PIN/Zip</label>
                  <input type="text" class="form-control" id="inputZip">
              </div>
              <div class="col-md-6">
                 <label for="inputnumber" class="form-label">Phone number</label>
-                <input type="text" class="form-control" class="border" id="mob" maxlength="12" oninput="this.value = this.value.replace(/[^0-9.]{10}/g, '').replace(/(\a-zA-Z\_+=)(&^%$#@!*)\./g, '$1');" pattern="([0-9]{3} [0-9]{3} [0-9]{4})|([0-9]{3}-[0-9]{3}-[0-9]{4})|([0-9]{3}.[0-9]{3}.[0-9]{4})" required>
+                <input type="text" class="form-control" class="border" id="mob" placeholder="XXX-XXX-XXXX" maxlength="12" oninput="this.value = this.value.replace(/[^0-9.]{10}/g, '').replace(/(\a-zA-Z\_+=)(&^%$#@!*)\./g, '$1');" pattern="([0-9]{3} [0-9]{3} [0-9]{4})|([0-9]{3}-[0-9]{3}-[0-9]{4})|([0-9]{3}.[0-9]{3}.[0-9]{4})" required>
              </div>
              <div class="col-md-6">
                  <label for="inputnumber" class="form-label">Land line (optional)</label>
